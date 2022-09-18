@@ -25,6 +25,7 @@ console.log(data);
 console.log(friends);
 
 console.log("Hello World");
+console.log("Look ma, I'm a real programmer!");
 
 
 
