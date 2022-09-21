@@ -44,7 +44,28 @@ const sayNameFunc = obj => {
   me.sayName();
   you.sayName();
 
+// copied from the practice replit
 
+  const yourObject = {
+    name: 'Jamison Fox',
+    city: 'Eagle Mountain',
+    favoriteFood: 'Pizza',
+    tellUsAboutYourself: function(thing1, thing2, thing3) {
+        return `Hi! My name is ${this.name}, I live in ${this.city}, and I enjoy ${thing1}, ${thing2}, and ${thing3}. I love to eat ${this.favoriteFood}.`
+    }
+  }
+  
+  const thingsYouEnjoy = ['Off road driving', 'camping', 'learning about technology', 'paddle boarding', 'reading science fiction', 'board games']
+  
+  function tellUsAboutYourself(thing1, thing2, thing3){
+    return `Hi! My name is ${this.name}, I live in ${this.city}, and I enjoy ${thing1}, ${thing2}, and ${thing3}. I love to eat ${this.favoriteFood}.`
+  }
+
+console.log(Math.ceil(Math.random()*5));
+
+console.log(yourObject.tellUsAboutYourself(thingsYouEnjoy[Math.ceil(Math.random()*5)], thingsYouEnjoy[Math.ceil(Math.random()*5)], thingsYouEnjoy[Math.ceil(Math.random()*5)]));
+  
+  // Using yourObject and thingsYouEnjoy array, set the context of this on tellUsAboutYourself and call the function.
 
 
 
