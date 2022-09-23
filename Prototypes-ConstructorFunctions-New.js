@@ -1,6 +1,6 @@
 // constructor functions are capitalized by convention. This won't change the syntax, it's just best practices
 
-/*
+
 function Person(attributes) {
     this.age = attributes.age;
     this.name = attributes.name;
@@ -119,8 +119,6 @@ newBanana.checkIfMonkeysLikeIt();
 newKiwi.checkIfFuzzy();
 newBanana.calculateCals();
 newKiwi.calculateCals();
-
-*/
 
 /* ==== Prototypes Challenge
 
