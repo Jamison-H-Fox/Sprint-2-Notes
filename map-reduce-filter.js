@@ -21,7 +21,7 @@ const mappedCityStates = data.map((lol) => {
   return {'city': lol.city, 'state': lol.state};
 });
 
-console.log(data);
+console.log(mappedCityStates);
 console.log(friends);
 
 // syntax for .map ---> const variable = input.map((element) => {expression});
